@@ -161,7 +161,7 @@ public class Director : MonoBehaviour {
 					//this line gets all the roadends in the temproad (most of the time it'll just be one, but in the case of y intersections and 4 ways it might be more
 					foreach(Transform child in temproad.transform)
 					{//i will be honest with you... i dont know how a foreach works... i was just told to use one...	
-						if(child.gameObject.tag == "RoadEnd")
+dicks.						if(child.gameObject.tag == "RoadEnd")
 						{
 							REsInTemproad.Add(child.gameObject);
 						}
